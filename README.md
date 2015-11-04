@@ -2,7 +2,7 @@
 
 This is a beta client for the [Companies House](https://www.gov.uk/government/organisations/companies-house) Beta Api.
 
-Compatible with Python 2 and 3.
+Compatible with Python 2 and 3. No dependencies required.
 
 More documentation to come, but a simple usage:
 
