@@ -59,7 +59,7 @@ class CompanyHouseAPI(object):
     https://developer.companieshouse.gov.uk/api/docs/index.html
     """
     def __init__(self, key=None,
-                 url='htttps://api.companieshouse.gov.uk', **kwargs):
+                 url='https://api.companieshouse.gov.uk', **kwargs):
         """
         :param key: The API key.
         :param url. The API base url.
