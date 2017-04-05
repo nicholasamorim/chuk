@@ -115,10 +115,11 @@ class CompanyHouseAPI(object):
     def validate_company_number(self, company_number):
         pass
 
-    def search_companies(self):
+    def search_companies(self, query):
         """
         """
         endpoint = '/search/companies'
+        parameters = {'q' : '{}'.format(query)}
         return self._wrap(endpoint)
 
     def search_officers(self):
