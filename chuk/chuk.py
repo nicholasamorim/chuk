@@ -120,7 +120,7 @@ class CompanyHouseAPI(object):
         """
         endpoint = '/search/companies'
         parameters = {'q' : '{}'.format(query)}
-        return self._wrap(endpoint)
+        return self._wrap(endpoint, parameters)
 
     def search_officers(self):
         """
